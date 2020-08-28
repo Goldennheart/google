@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    float:right;
+}
+.header a, .header button{
+    margin:10px;
+    color: #000;
+    text-decoration: none;
+}
+.header button{
+    background:#4484f1;
+    padding:8px;
+    font-size:15px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.main{
+    text-align: center;
+}
+.google{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}
+.google img{
+    margin-top: 10%;
+    width:500px;
+    height: 200px;
+}
+.search input{
+    width:300px;
+    height:20px;
+    border: radius 5px;
+    padding: 15px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 2px;
+}
+.footer{
+   padding-top: 500px;
+}
+.footer-left{
+    float: left;
+
+}
+.footer-right{
+    float: right;
+}
